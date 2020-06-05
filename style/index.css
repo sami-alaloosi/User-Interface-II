@@ -1,1 +1,254 @@
 /* Add CSS styling here */
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+
+  .navigation {
+      display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+      height: 8vh;
+      margin: 4rem;
+  }
+
+  .navigation a {
+      background-color: #0da8be;
+      color:white;
+      border-radius: 10px;
+      text-decoration: none;
+      text-align: center;
+      width: 5%;
+      height: 3%;
+      padding: 2rem 4rem;
+      margin: 1rem;
+  }
+  .navigation a:hover {
+      border: solid 3px black;
+  }
+
+
+  .navigation h2 {
+   margin-left: 1rem;
+   font-family: 'Nunito', sans-serif;
+   font-size: 3rem;
+  }
+
+  .my-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 30vh;
+      font-family: 'Nunito', sans-serif;
+  }
+  .my-name h1 {
+      font-size: 3rem;
+  }
+  
+  .my-name p {
+      font-size: 2rem;
+  }
+
+  .box1{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .box1 img {
+      width: 75%;
+      display: flex;
+      margin: 1rem;
+      margin: 0 10%;
+
+  }
+
+  .box1 p {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+/* box 2 */
+.box2{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .box2 img {
+      width: 75%;
+      display: flex;
+      margin: 1rem;
+      margin: 0 10%;
+
+  }
+
+  .box2 p {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+/* box 3 */
+.box3{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    
+  }
+
+  .box3 img {
+      width: 75%;
+      display: flex;
+      margin: 1rem;
+      margin: 17% 10%;
+     
+    
+
+  }
+
+  .box3 p {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    
+    
+  }
+/* box 4 */
+.box4{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .box4 img {
+      width: 75%;
+      display: flex;
+      margin: 1rem;
+      margin: 14% 10%;
+
+  }
+
+  .box4 p {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+/* box 5 */
+.box5{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .box5 img {
+      width: 75%;
+      display: flex;
+      margin: 1rem;
+      margin: 0 10%;
+
+  }
+
+  .box5 p {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+/* box 6 */
+.box6{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .box6 img {
+      width: 75%;
+      display: flex;
+      margin: 1rem;
+      margin: 0 10%;
+
+  }
+
+  .box6 p {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .box123 {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    margin: 2rem .7rem;
+    
+  }
+  .box456 {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    margin: 2rem .7rem;
+    
+  }
+
+  .footer-contact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+      height: 7vh; 
+  }
+
+  .footer-contact nav {
+    width: 3%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  img:hover {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 8px black;
+    animation: rotation 10s infinite linear;
+    
+  }
+  .footer-contact img:hover {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: none;
+    animation: none;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
