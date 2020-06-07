@@ -18,12 +18,6 @@
     grid-gap: 20px;
   }
 /* header start */
-  header {
-    background-color: blueviolet;
-    
-  }
-
-  
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -78,25 +72,26 @@ main div {
     background-color: greenyellow;
 }
 
-.box1{
-    height: auto;
+.main-boxs{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
-  .box1 img {
+  .main-boxs img {
     width: 75%;
     display: flex;
     margin: 1rem;
     margin: 0 10%;
 
 }
-.box1 p {
-    font-family: 'Nunito', sans-serif;
+.main-boxs p {
     display: flex;
     justify-content: center;
     font-size: large;
   }
+
+
+  
 
 /* footer starts */
 footer {
