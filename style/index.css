@@ -1,35 +1,7 @@
 /* Add CSS styling here */
-* {
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-  }
+
+
   
-  html {
-    font-size: 62.5%;
-  }
-
-  .navigation {
-      display: flex;
-
-      justify-content: space-between;
-      align-items: center;
-      height: 8vh;
-      margin: 4rem;
-  }
-
-  .navigation a {
-      background-color: #0da8be;
-      color:white;
-      border-radius: 10px;
-      text-decoration: none;
-      text-align: center;
-      width: 5%;
-      height: 3%;
-      padding: 2rem 4rem;
-      margin: 1rem;
-  }
   .navigation a:hover {
       border: solid 3px black;
   }
@@ -87,7 +59,8 @@
   }
 
   .box2 img {
-      width: 75%;
+    width: auto;
+    height: 20vh;
       display: flex;
       margin: 1rem;
       margin: 0 10%;
@@ -111,10 +84,11 @@
   }
 
   .box3 img {
-      width: 75%;
+      width: auto;
+      height: 20vh;
       display: flex;
       margin: 1rem;
-      margin: 17% 10%;
+      margin: 0 10%;
      
     
 
