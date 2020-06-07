@@ -7,9 +7,8 @@
   
   html {
     font-size: 62.5%;
-    
-    
-    
+    font-family: 'Nunito', sans-serif;
+     
   }
 
   body {
@@ -36,6 +35,8 @@
     display: flex;
     justify-content: space-between;
     margin: 2vh;
+    /* border: red solid 2px; */
+    align-items: center;
   }
 
   .navigation a {
@@ -44,15 +45,32 @@
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-    
+    margin: 0 1vw;
     padding: 1vh 2vw;
-    margin: 2vh;
     border: black 2px solid;
 }
 
 .navigation a:hover {
-    border: solid 3px gold;
+    border: black 3px solid;
 }
 
+.navigation h2 {
+    margin-left: 2.5vw;
+    font-size: 3rem;
+   }
 
+   .my-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    
+}
+.my-name h1 {
+    font-size: 3rem;
+}
 
+.my-name p {
+    font-size: 2rem;
+}

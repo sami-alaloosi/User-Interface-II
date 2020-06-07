@@ -1,17 +1,9 @@
 /* Add CSS styling here */
 
 
+
+
   
-  .navigation a:hover {
-      border: solid 3px black;
-  }
-
-
-  .navigation h2 {
-   margin-left: 1rem;
-   font-family: 'Nunito', sans-serif;
-   font-size: 3rem;
-  }
 
   .my-name {
       display: flex;
@@ -19,7 +11,7 @@
       justify-content: center;
       align-items: center;
       height: 30vh;
-      font-family: 'Nunito', sans-serif;
+      
   }
   .my-name h1 {
       font-size: 3rem;
