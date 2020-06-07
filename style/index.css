@@ -2,39 +2,9 @@
 
 
 
-
   
 
-  .my-name {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 30vh;
-      
-  }
-  .my-name h1 {
-      font-size: 3rem;
-  }
-  
-  .my-name p {
-      font-size: 2rem;
-  }
-
-  .box1{
-    width:25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  .box1 img {
-      width: 75%;
-      display: flex;
-      margin: 1rem;
-      margin: 0 10%;
-
-  }
+ 
 
   .box1 p {
     font-family: 'Nunito', sans-serif;

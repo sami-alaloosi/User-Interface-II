@@ -14,23 +14,16 @@
   body {
     display: grid;
     height: 100vh;
-    grid-template-rows: 4fr 14fr  2fr ;
+    grid-template-rows: 5fr 14fr  2fr ;
     grid-gap: 20px;
   }
-
+/* header start */
   header {
     background-color: blueviolet;
     
   }
 
-  main {
-      background-color: chocolate;
-  }
-
-  footer {
-    background-color: darkgray;
-  }
-
+  
   .navigation {
     display: flex;
     justify-content: space-between;
@@ -63,9 +56,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 30vh;
-    
+    align-items: center;   
 }
 .my-name h1 {
     font-size: 3rem;
@@ -73,4 +64,41 @@
 
 .my-name p {
     font-size: 2rem;
+}
+/* main starts */
+main {
+    /* background-color: chocolate; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1vw;
+}
+
+main div {
+    background-color: greenyellow;
+}
+
+.box1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .box1 img {
+    width: 75%;
+    display: flex;
+    margin: 1rem;
+    margin: 0 10%;
+
+}
+.box1 p {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+  }
+
+/* footer starts */
+footer {
+  background-color: darkgray;
 }
